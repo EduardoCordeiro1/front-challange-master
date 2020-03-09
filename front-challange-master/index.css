@@ -105,3 +105,7 @@ input:focus {
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
+.msg{
+	color: red;
+	margin: 15px;
+}
