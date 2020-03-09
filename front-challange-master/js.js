@@ -30,7 +30,7 @@ function validaSenha(){
 	var senha2 = document.getElementById("rsenha").value;
 	
 	if(nome == "" || senha == "" || senha1 != senha2){
-		alert('Preencha todos os campos corretamente!! \nPor favor tente novamente.');
+		document.getElementById("msgerro").style.display = 'block';
 	}
 	else{
 		alert('Ola, '+nome.value+'!!! Esses dados foram cadastrados no nosso sistema com sucesso: \nTelefone: '+telefone.value+ '\nEmail: '+email.value+ '\nObrigado!!!');
