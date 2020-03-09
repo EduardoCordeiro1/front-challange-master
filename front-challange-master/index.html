@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="index.css"/>
+	<script type="text/javascript" src="js.js"></script>
+	
+	<script src="https://kit.fontawesome.com/5d4963a5fe.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device.width, initial-scale=1.0">
+	<title>front-challange-master</title>
+  </head>
+  <body>
+    <!-- escreva seu codigo aqui -->
+	<main>
+		<div class="container">
+			<div class="content first-column">
+				<img class="img "src="img/pug.png">
+			</div>
+			<div class="content second-column">
+				<h2 class="title">Create an Account!</h2>
+				<form class="form">
+					<input type="text" name="nomeid" id="nomeid" placeholder="First Name"  maxlength="30">
+					<input type="tel" name="telefone" id="telefone" placeholder="Phone" maxlength="15"><br>
+					<input type="email" name="email" id="email" placeholder="Email Address" maxlength="40"><br>
+					<input type="password" name="senha" id="senha" placeholder="Password" maxlength="20">
+					<input type="password" name="rsenha" id="rsenha" placeholder="Repeat Password" maxlength="20">
+					<button type="submit" onclick="validaSenha();" value="Enviar" class="btn btn-account">Register Account</button>
+				</form>	
+						<div class="line"></div>
+					<button class="btn btn-google"><i class="fab fa-google"></i>Register with Google</button>
+					<button class="btn btn-facebook"><i class="fab fa-facebook-f"></i>Register with Facebook</button><br>
+						<div class="line"></div><br>
+				<a class="link" href="">Forgot Password?</a> <br>
+				<a class="link "href="">Already have an account? Login!</a>
+			</div>
+		</div>	
+	</main>
+  </body>
+</html>
