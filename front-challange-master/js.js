@@ -25,15 +25,15 @@ window.onload = function(){
 
 //função de validação de senhas 
 function validaSenha(){
-	var nome = document.getElementById("nomeid","telefone","email").value;
+	var nome = document.getElementById("nomeid","telefone","email");
 	var senha1 = document.getElementById("senha").value;
 	var senha2 = document.getElementById("rsenha").value;
 	
-	if(nome == "" || senha == "" || senha1 != senha2){
+	if(nome.value == "" || senha == "" || senha1 != senha2){
 		document.getElementById("msgerro").style.display = 'block';
 	}
 	else{
-		alert('Ola, '+nome.value+'!!! Esses dados foram cadastrados no nosso sistema com sucesso: \nTelefone: '+telefone.value+ '\nEmail: '+email.value+ '\nObrigado!!!');
+		alert('Ola, '+nome.value+'!!! Seus dados foram cadastrados no nosso sistema com sucesso: \nTelefone: '+telefone.value+ '\nEmail: '+email.value+ '\nObrigado!!!');
 	}
 }
 
