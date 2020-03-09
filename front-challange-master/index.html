@@ -23,7 +23,8 @@
 					<input type="email" name="email" id="email" placeholder="Email Address" maxlength="40"><br>
 					<input type="password" name="senha" id="senha" placeholder="Password" maxlength="20">
 					<input type="password" name="rsenha" id="rsenha" placeholder="Repeat Password" maxlength="20">
-					<button type="submit" onclick="validaSenha();" value="Enviar" class="btn btn-account">Register Account</button>
+					<div id="msgerro" style="display:none" class="msg">Dados incorretos! Tente novamente, por favor.</div>
+					<button type="button" onclick="validaSenha();" value="Enviar" class="btn btn-account">Register Account</button>
 				</form>	
 						<div class="line"></div>
 					<button class="btn btn-google"><i class="fab fa-google"></i>Register with Google</button>
